@@ -1,0 +1,2773 @@
+body {
+    background-color: white;
+    width: 100%;
+    margin: 0 auto;
+    font-family: 'Lato', sans-serif;
+
+    transition: background-color .5s;
+}
+
+.favorite-str{
+    padding: 100px 100px 100px 100px;
+
+}
+
+.hat {
+    margin-left:  0px;
+    margin-right: 0px;
+    width: 100%;
+    min-width: 1300px;
+    height: 60px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+
+    transition: all 250ms;
+}
+
+.logo {
+    width: 48px;
+    height: 48px;
+    margin: 0 14px 0 8px;
+    float: left;
+
+    transition: all 250ms;
+}
+
+.title {
+    color: #000000;
+    font:'Palatino Linotype';
+    font-size: 28px;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: -16px;
+
+    transition: all 250ms;
+}
+ 
+.title_subtext {
+    color: black;
+    font:'Palatino Linotype';
+    font-size: 18px;
+    font-weight: normal;
+
+    transition: all 250ms;
+ }
+
+.hat_content {
+    display: flex;
+    float: right;
+    margin-top: -68px;
+    margin-right: 60px;
+
+    transition: all 250ms;
+ }
+
+.hat_pages {
+    color: black;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-right: 20px;
+
+    transition: all 250ms;
+ }
+
+.hat_pages:hover {
+    color: #cc0000;
+    transition: 250ms;
+ }
+
+.menu {
+    width: 48px;
+    height: 48px;
+    display: flex;
+    float: right;
+    margin: -66px 20px 0 0;
+
+    transition: all 250ms;
+ }
+
+.menu:hover {
+    content: url('../images/menu_hover.png');
+ }
+ 
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+ }
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+ }
+  
+.sidenav a:hover {
+    color: #cc0000;
+ }
+  
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+ }
+
+ h1 {
+    margin: 20px 0 0 10px;
+ }
+
+.content {
+    width: 100%;
+    display: flex;
+    justify-content: left;
+ }  
+ 
+.hero_picture {
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin-top: 20px;
+ }
+
+.text {
+    background-color: #202020;
+    color: #ffffff;
+    font-size: 15px;
+    padding: auto;
+ }
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    text-align: center;
+    position: relative;
+ }
+
+.abaddon {
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    margin-left: 10px;
+
+    transition: all 250ms;
+ }
+
+.abaddon:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+ }
+
+.abaddon:hover .hero_image {
+    opacity: 0.3;
+ }
+  
+.abaddon:hover .middle {
+    opacity: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+ }
+
+.alchemist {
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    margin-left: 10px;
+
+    transition: all 250ms;
+ }
+
+.alchemist:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+ }
+
+.alchemist:hover .hero_image {
+    opacity: 0.3;
+ }
+ 
+.alchemist:hover .middle {
+    opacity: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+ }
+
+.axe {
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    margin-left: 10px;
+
+    transition: all 250ms;
+ }
+
+.axe:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+ }
+
+.axe:hover .hero_image {
+    opacity: 0.3;
+ }
+  
+.axe:hover .middle {
+    opacity: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+ }
+
+.beastmaster {
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    margin-left: 10px;
+
+    transition: all 250ms;
+ }
+
+.beastmaster:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+ }
+
+.beastmaster:hover .hero_image {
+    opacity: 0.3;
+ }
+  
+.beastmaster:hover .middle {
+    opacity: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+ }
+
+.brewmaster {
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    margin-left: 10px;
+
+    transition: all 250ms;
+ }
+
+.brewmaster:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+ }
+
+.brewmaster:hover .hero_image {
+    opacity: 0.3;
+ }
+  
+.brewmaster:hover .middle {
+    opacity: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+ }
+
+.Bristleback {
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    margin-left: 10px;
+
+    transition: all 250ms;
+}
+
+.Bristleback:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+ }
+
+.Bristleback:hover .hero_image {
+    opacity: 0.3;
+ }
+  
+.Bristleback:hover .middle {
+    opacity: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+ }
+
+ .Centaur_Warrunner {
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    margin-left: 10px;
+
+    transition: all 250ms;
+ }
+
+.Centaur_Warrunner:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+ }
+
+.Centaur_Warrunner:hover .hero_image {
+    opacity: 0.3;
+ }
+  
+.Centaur_Warrunner:hover .middle {
+    opacity: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+}
+
+.Chaos_Knight {
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    margin-left: 10px;
+
+    transition: all 250ms;
+}
+
+.Chaos_Knight:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+ }
+
+.Chaos_Knight:hover .hero_image {
+    opacity: 0.3;
+ }
+  
+.Chaos_Knight:hover .middle {
+    opacity: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+}
+
+.Clockwerk {
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    margin-left: 10px;
+
+    transition: all 250ms;
+ }
+
+.Clockwerk:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+ }
+
+.Clockwerk:hover .hero_image {
+    opacity: 0.3;
+ }
+  
+.Clockwerk:hover .middle {
+    opacity: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+}
+
+.Doom {
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    margin-left: 10px;
+
+    transition: all 250ms;
+}
+
+.Doom:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+ }
+
+.Doom:hover .hero_image {
+    opacity: 0.3;
+ }
+  
+.Doom:hover .middle {
+    opacity: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+}
+
+.Dragon_Knight {
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    margin-left: 10px;
+
+    transition: all 250ms;
+ }
+
+.Dragon_Knight:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+ }
+
+.Dragon_Knight:hover .hero_image {
+    opacity: 0.3;
+ }
+  
+.Dragon_Knight:hover .middle {
+    opacity: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+}
+
+.Earth_Spirit {
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    margin-left: 10px;
+
+    transition: all 250ms;
+ }
+
+.Earth_Spirit:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+ }
+
+.Earth_Spirit:hover .hero_image {
+    opacity: 0.3;
+ }
+  
+.Earth_Spirit:hover .middle {
+    opacity: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+ }
+
+.Earthshaker {
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    margin-left: 10px;
+
+    transition: all 250ms;
+}
+
+.Earthshaker:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+ }
+
+.Earthshaker:hover .hero_image {
+    opacity: 0.3;
+ }
+  
+.Earthshaker:hover .middle {
+    opacity: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+}
+
+.Elder_Titan {
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    margin-left: 10px;
+
+    transition: all 250ms;
+}
+
+.Elder_Titan:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+ }
+
+.Elder_Titan:hover .hero_image {
+    opacity: 0.3;
+ }
+  
+.Elder_Titan:hover .middle {
+    opacity: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+}
+
+.Huskar {
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    margin-left: 10px;
+
+    transition: all 250ms;
+}
+
+.Huskar:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+ }
+
+.Huskar:hover .hero_image {
+    opacity: 0.3;
+ }
+  
+.Huskar:hover .middle {
+    opacity: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+}
+
+.Io {
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    margin-left: 10px;
+
+    transition: all 250ms;
+}
+
+.Io:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+ }
+
+.Io:hover .hero_image {
+    opacity: 0.3;
+ }
+  
+.Io:hover .middle {
+    opacity: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+}
+
+.Kunkka {
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    margin-left: 10px;
+
+    transition: all 250ms;
+}
+
+.Kunkka:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+ }
+
+.Kunkka:hover .hero_image {
+    opacity: 0.3;
+ }
+  
+.Kunkka:hover .middle {
+    opacity: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+}
+
+.Legion_Commander {
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    margin-left: 10px;
+
+    transition: all 250ms;
+}
+
+.Legion_Commander:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+ }
+
+.Legion_Commander:hover .hero_image {
+    opacity: 0.3;
+ }
+  
+.Legion_Commander:hover .middle {
+    opacity: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+}
+
+.Lifestealer {
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    margin-left: 10px;
+
+    transition: all 250ms;
+}
+
+.Lifestealer:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+ }
+
+.Lifestealer:hover .hero_image {
+    opacity: 0.3;
+ }
+  
+.Lifestealer:hover .middle {
+    opacity: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+}
+
+.Lycan {
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    margin-left: 10px;
+
+    transition: all 250ms;
+}
+
+.Lycan:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+ }
+
+.Lycan:hover .hero_image {
+    opacity: 0.3;
+ }
+  
+.Lycan:hover .middle {
+    opacity: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+}
+
+.Magnus {
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    margin-left: 10px;
+
+    transition: all 250ms;
+}
+
+.Magnus:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+ }
+
+.Magnus:hover .hero_image {
+    opacity: 0.3;
+ }
+  
+.Magnus:hover .middle {
+    opacity: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+}
+
+.Mars {
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    margin-left: 10px;
+
+    transition: all 250ms;
+}
+
+.Mars:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+ }
+
+.Mars:hover .hero_image {
+    opacity: 0.3;
+ }
+  
+.Mars:hover .middle {
+    opacity: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+}
+
+.Night_Stalker {
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    margin-left: 10px;
+
+    transition: all 250ms;
+}
+
+.Night_Stalker:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+ }
+
+.Night_Stalker:hover .hero_image {
+    opacity: 0.3;
+ }
+  
+.Night_Stalker:hover .middle {
+    opacity: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+}
+
+.Omniknight {
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    margin-left: 10px;
+
+    transition: all 250ms;
+}
+
+.Omniknight:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+ }
+
+.Omniknight:hover .hero_image {
+    opacity: 0.3;
+ }
+  
+.Omniknight:hover .middle {
+    opacity: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+}
+
+.Phoenix {
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    margin-left: 10px;
+
+    transition: all 250ms;
+}
+
+.Phoenix:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+ }
+
+.Phoenix:hover .hero_image {
+    opacity: 0.3;
+ }
+  
+.Phoenix:hover .middle {
+    opacity: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+}
+
+.Pudge {
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    margin-left: 10px;
+
+    transition: all 250ms;
+}
+
+.Pudge:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+ }
+
+.Pudge:hover .hero_image {
+    opacity: 0.3;
+ }
+  
+.Pudge:hover .middle {
+    opacity: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+}
+
+.Sand_King {
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    margin-left: 10px;
+
+    transition: all 250ms;
+}
+
+.Sand_King:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+ }
+
+.Sand_King:hover .hero_image {
+    opacity: 0.3;
+ }
+  
+.Sand_King:hover .middle {
+    opacity: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+}
+
+.Slardar {
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    margin-left: 10px;
+
+    transition: all 250ms;
+}
+
+.Slardar:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+ }
+
+.Slardar:hover .hero_image {
+    opacity: 0.3;
+ }
+  
+.Slardar:hover .middle {
+    opacity: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+}
+
+.Snapfire {
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    margin-left: 10px;
+
+    transition: all 250ms;
+}
+
+.Snapfire:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+ }
+
+.Snapfire:hover .hero_image {
+    opacity: 0.3;
+ }
+  
+.Snapfire:hover .middle {
+    opacity: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+}
+
+.Spirit_Breaker {
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    margin-left: 10px;
+
+    transition: all 250ms;
+}
+
+.Spirit_Breaker:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+ }
+
+.Spirit_Breaker:hover .hero_image {
+    opacity: 0.3;
+ }
+  
+.Spirit_Breaker:hover .middle {
+    opacity: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+}
+
+.Sven {
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    margin-left: 10px;
+
+    transition: all 250ms;
+}
+
+.Sven:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+ }
+
+.Sven:hover .hero_image {
+    opacity: 0.3;
+ }
+  
+.Sven:hover .middle {
+    opacity: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+}
+
+.Tidehunter {
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    margin-left: 10px;
+
+    transition: all 250ms;
+}
+
+.Tidehunter:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+ }
+
+.Tidehunter:hover .hero_image {
+    opacity: 0.3;
+ }
+  
+.Tidehunter:hover .middle {
+    opacity: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+}
+
+.Timbersaw{
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    margin-left: 10px;
+
+    transition: all 250ms;
+}
+
+.Timbersaw:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+ }
+
+.Timbersaw:hover .hero_image {
+    opacity: 0.3;
+ }
+  
+.Timbersaw:hover .middle {
+    opacity: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+}
+
+.Tiny {
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    margin-left: 10px;
+
+    transition: all 250ms;
+}
+
+.Tiny:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+ }
+
+.Tiny:hover .hero_image {
+    opacity: 0.3;
+ }
+  
+.Tiny:hover .middle {
+    opacity: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+}
+
+.Treant_Protector {
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    margin-left: 10px;
+
+    transition: all 250ms;
+}
+
+.Treant_Protector:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+ }
+
+.Treant_Protector:hover .hero_image {
+    opacity: 0.3;
+ }
+  
+.Treant_Protector:hover .middle {
+    opacity: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+}
+
+.Tusk {
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    margin-left: 10px;
+
+    transition: all 250ms;
+}
+
+.Tusk:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+ }
+
+.Tusk:hover .hero_image {
+    opacity: 0.3;
+ }
+  
+.Tusk:hover .middle {
+    opacity: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+}
+
+.Underlord {
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    margin-left: 10px;
+
+    transition: all 250ms;
+}
+
+.Underlord:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+ }
+
+.Underlord:hover .hero_image {
+    opacity: 0.3;
+ }
+  
+.Underlord:hover .middle {
+    opacity: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+}
+
+.Undying {
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    margin-left: 10px;
+
+    transition: all 250ms;
+}
+
+.Undying:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+ }
+
+.Undying:hover .hero_image {
+    opacity: 0.3;
+ }
+  
+.Undying:hover .middle {
+    opacity: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+}
+
+.Wraith_King {
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    margin-left: 10px;
+
+    transition: all 250ms;
+}
+
+.Wraith_King:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+ }
+
+.Wraith_King:hover .hero_image {
+    opacity: 0.3;
+ }
+  
+.Wraith_King:hover .middle {
+    opacity: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+}
+
+.Anti_Mage {
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    margin-left: 10px;
+
+    transition: all 250ms;
+}
+
+.Anti_Mage:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+ }
+
+.Anti_Mage:hover .hero_image {
+    opacity: 0.3;
+ }
+  
+.Anti_Mage:hover .middle {
+    opacity: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+}
+
+.Arc_Warden {
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    margin-left: 10px;
+
+    transition: all 250ms;
+}
+
+.Arc_Warden:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+ }
+
+.Arc_Warden:hover .hero_image {
+    opacity: 0.3;
+ }
+  
+.Arc_Warden:hover .middle {
+    opacity: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+}
+
+.Bloodseeker {
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    margin-left: 10px;
+
+    transition: all 250ms;
+}
+
+.Bloodseeker:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+ }
+
+.Bloodseeker:hover .hero_image {
+    opacity: 0.3;
+ }
+  
+.Bloodseeker:hover .middle {
+    opacity: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+}
+
+.Bounty_Hunter {
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    margin-left: 10px;
+
+    transition: all 250ms;
+}
+
+.Bounty_Hunter:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+ }
+
+.Bounty_Hunter:hover .hero_image {
+    opacity: 0.3;
+ }
+  
+.Bounty_Hunter:hover .middle {
+    opacity: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+}
+
+.Broodmother {
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    margin-left: 10px;
+
+    transition: all 250ms;
+}
+
+.Broodmother:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+ }
+
+.Broodmother:hover .hero_image {
+    opacity: 0.3;
+ }
+  
+.Broodmother:hover .middle {
+    opacity: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+}
+
+.Clinkz {
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    margin-left: 10px;
+
+    transition: all 250ms;
+}
+
+.Clinkz:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+ }
+
+.Clinkz:hover .hero_image {
+    opacity: 0.3;
+ }
+  
+.Clinkz:hover .middle {
+    opacity: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+}
+
+.Drow_Ranger {
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    margin-left: 10px;
+
+    transition: all 250ms;
+}
+
+.Drow_Ranger:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+ }
+
+.Drow_Ranger:hover .hero_image {
+    opacity: 0.3;
+ }
+  
+.Drow_Ranger:hover .middle {
+    opacity: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+}
+
+.Ember_Spirit {
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    margin-left: 10px;
+
+    transition: all 250ms;
+}
+
+.Ember_Spirit:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+ }
+
+.Ember_Spirit:hover .hero_image {
+    opacity: 0.3;
+ }
+  
+.Ember_Spirit:hover .middle {
+    opacity: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+}
+
+.Faceless_Void {
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    margin-left: 10px;
+
+    transition: all 250ms;
+}
+
+.Faceless_Void:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+ }
+
+.Faceless_Void:hover .hero_image {
+    opacity: 0.3;
+ }
+  
+.Faceless_Void:hover .middle {
+    opacity: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+}
+
+.Gyrocopter {
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    margin-left: 10px;
+
+    transition: all 250ms;
+}
+
+.Gyrocopter:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+ }
+
+.Gyrocopter:hover .hero_image {
+    opacity: 0.3;
+ }
+  
+.Gyrocopter:hover .middle {
+    opacity: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+}
+
+.Juggernaut {
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    margin-left: 10px;
+
+    transition: all 250ms;
+}
+
+.Juggernaut:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+ }
+
+.Juggernaut:hover .hero_image {
+    opacity: 0.3;
+ }
+  
+.Juggernaut:hover .middle {
+    opacity: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+}
+
+.Lone_Druid {
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    margin-left: 10px;
+
+    transition: all 250ms;
+}
+
+.Lone_Druid:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+ }
+
+.Lone_Druid:hover .hero_image {
+    opacity: 0.3;
+ }
+  
+.Lone_Druid:hover .middle {
+    opacity: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+}
+
+.Luna {
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    margin-left: 10px;
+
+    transition: all 250ms;
+}
+
+.Luna:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+ }
+
+.Luna:hover .hero_image {
+    opacity: 0.3;
+ }
+  
+.Luna:hover .middle {
+    opacity: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+}
+
+.Medusa {
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    margin-left: 10px;
+
+    transition: all 250ms;
+}
+
+.Medusa:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+ }
+
+.Medusa:hover .hero_image {
+    opacity: 0.3;
+ }
+  
+.Medusa:hover .middle {
+    opacity: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+}
+
+.Meepo {
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    margin-left: 10px;
+
+    transition: all 250ms;
+}
+
+.Meepo:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+ }
+
+.Meepo:hover .hero_image {
+    opacity: 0.3;
+ }
+  
+.Meepo:hover .middle {
+    opacity: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+}
+
+.Mirana {
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    margin-left: 10px;
+
+    transition: all 250ms;
+}
+
+.Mirana:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+ }
+
+.Mirana:hover .hero_image {
+    opacity: 0.3;
+ }
+  
+.Mirana:hover .middle {
+    opacity: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+}
+
+.Monkey_King {
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    margin-left: 10px;
+
+    transition: all 250ms;
+}
+
+.Monkey_King:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+ }
+
+.Monkey_King:hover .hero_image {
+    opacity: 0.3;
+ }
+  
+.Monkey_King:hover .middle {
+    opacity: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+}
+
+.Morphling {
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    margin-left: 10px;
+
+    transition: all 250ms;
+}
+
+.Morphling:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+ }
+
+.Morphling:hover .hero_image {
+    opacity: 0.3;
+ }
+  
+.Morphling:hover .middle {
+    opacity: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+}
+
+.Naga_Siren {
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    margin-left: 10px;
+
+    transition: all 250ms;
+}
+
+.Naga_Siren:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+ }
+
+.Naga_Siren:hover .hero_image {
+    opacity: 0.3;
+ }
+  
+.Naga_Siren:hover .middle {
+    opacity: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+}
+
+.Nyx_Assassin {
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    margin-left: 10px;
+
+    transition: all 250ms;
+}
+
+.Nyx_Assassin:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+ }
+
+.Nyx_Assassin:hover .hero_image {
+    opacity: 0.3;
+ }
+  
+.Nyx_Assassin:hover .middle {
+    opacity: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+}
+
+.Pangolier {
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    margin-left: 10px;
+
+    transition: all 250ms;
+}
+
+.Pangolier:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+ }
+
+.Pangolier:hover .hero_image {
+    opacity: 0.3;
+ }
+  
+.Pangolier:hover .middle {
+    opacity: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+}
+
+.Phantom_Assassin {
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    margin-left: 10px;
+
+    transition: all 250ms;
+}
+
+.Phantom_Assassin:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+ }
+
+.Phantom_Assassin:hover .hero_image {
+    opacity: 0.3;
+ }
+  
+.Phantom_Assassin:hover .middle {
+    opacity: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+}
+
+.Phantom_Lancer {
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    margin-left: 10px;
+
+    transition: all 250ms;
+}
+
+.Phantom_Lancer:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+ }
+
+.Phantom_Lancer:hover .hero_image {
+    opacity: 0.3;
+ }
+  
+.Phantom_Lancer:hover .middle {
+    opacity: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+}
+
+.Razor {
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    margin-left: 10px;
+
+    transition: all 250ms;
+}
+
+.Razor:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+ }
+
+.Razor:hover .hero_image {
+    opacity: 0.3;
+ }
+  
+.Razor:hover .middle {
+    opacity: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+}
+
+.Riki {
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    margin-left: 10px;
+
+    transition: all 250ms;
+}
+
+.Riki:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+ }
+
+.Riki:hover .hero_image {
+    opacity: 0.3;
+ }
+  
+.Riki:hover .middle {
+    opacity: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+}
+
+.Shadow_Fiend {
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    margin-left: 10px;
+
+    transition: all 250ms;
+}
+
+.Shadow_Fiend:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+ }
+
+.Shadow_Fiend:hover .hero_image {
+    opacity: 0.3;
+ }
+  
+.Shadow_Fiend:hover .middle {
+    opacity: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+}
+
+.Slark {
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    margin-left: 10px;
+
+    transition: all 250ms;
+}
+
+.Slark:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+ }
+
+.Slark:hover .hero_image {
+    opacity: 0.3;
+ }
+  
+.Slark:hover .middle {
+    opacity: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+}
+
+.Sniper {
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    margin-left: 10px;
+
+    transition: all 250ms;
+}
+
+.Sniper:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+ }
+
+.Sniper:hover .hero_image {
+    opacity: 0.3;
+ }
+  
+.Sniper:hover .middle {
+    opacity: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+}
+
+.Spectre {
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    margin-left: 10px;
+
+    transition: all 250ms;
+}
+
+.Spectre:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+ }
+
+.Spectre:hover .hero_image {
+    opacity: 0.3;
+ }
+  
+.Spectre:hover .middle {
+    opacity: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+}
+
+.Templar_Assassin {
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    margin-left: 10px;
+
+    transition: all 250ms;
+}
+
+.Templar_Assassin:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+ }
+
+.Templar_Assassin:hover .hero_image {
+    opacity: 0.3;
+ }
+  
+.Templar_Assassin:hover .middle {
+    opacity: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+}
+
+.Terrorblade {
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    margin-left: 10px;
+
+    transition: all 250ms;
+}
+
+.Terrorblade:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+ }
+
+.Terrorblade:hover .hero_image {
+    opacity: 0.3;
+ }
+  
+.Terrorblade:hover .middle {
+    opacity: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+}
+
+.Troll_Warlord {
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    margin-left: 10px;
+
+    transition: all 250ms;
+}
+
+.Troll_Warlord:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+ }
+
+.Troll_Warlord:hover .hero_image {
+    opacity: 0.3;
+ }
+  
+.Troll_Warlord:hover .middle {
+    opacity: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+}
+
+.Ursa {
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    margin-left: 10px;
+
+    transition: all 250ms;
+}
+
+.Ursa:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+ }
+
+.Ursa:hover .hero_image {
+    opacity: 0.3;
+ }
+  
+.Ursa:hover .middle {
+    opacity: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+}
+
+.Vengeful_Spirit {
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    margin-left: 10px;
+
+    transition: all 250ms;
+}
+
+.Vengeful_Spirit:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+ }
+
+.Vengeful_Spirit:hover .hero_image {
+    opacity: 0.3;
+ }
+  
+.Vengeful_Spirit:hover .middle {
+    opacity: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+}
+
+.Venomancer {
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    margin-left: 10px;
+
+    transition: all 250ms;
+}
+
+.Venomancer:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+ }
+
+.Venomancer:hover .hero_image {
+    opacity: 0.3;
+ }
+  
+.Venomancer:hover .middle {
+    opacity: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+}
+
+.Viper {
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    margin-left: 10px;
+
+    transition: all 250ms;
+}
+
+.Viper:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+ }
+
+.Viper:hover .hero_image {
+    opacity: 0.3;
+ }
+  
+.Viper:hover .middle {
+    opacity: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+}
+
+.Weaver {
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    margin-left: 10px;
+
+    transition: all 250ms;
+}
+
+.Weaver:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+ }
+
+.Weaver:hover .hero_image {
+    opacity: 0.3;
+ }
+  
+.Weaver:hover .middle {
+    opacity: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+}
+
+.Ancient_Apparition {
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    margin-left: 10px;
+
+    transition: all 250ms;
+}
+
+.Ancient_Apparition:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+ }
+
+.Ancient_Apparition:hover .hero_image {
+    opacity: 0.3;
+ }
+  
+.Ancient_Apparition:hover .middle {
+    opacity: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+}
+
+.Bane {
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    margin-left: 10px;
+
+    transition: all 250ms;
+}
+
+.Bane:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+ }
+
+.Bane:hover .hero_image {
+    opacity: 0.3;
+ }
+  
+.Bane:hover .middle {
+    opacity: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+}
+
+.Batrider {
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    margin-left: 10px;
+
+    transition: all 250ms;
+}
+
+.Batrider:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+ }
+
+.Batrider:hover .hero_image {
+    opacity: 0.3;
+ }
+  
+.Batrider:hover .middle {
+    opacity: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+}
+
+.Chen {
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    margin-left: 10px;
+
+    transition: all 250ms;
+}
+
+.Chen:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+ }
+
+.Chen:hover .hero_image {
+    opacity: 0.3;
+ }
+  
+.Chen:hover .middle {
+    opacity: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+}
+
+.Crystal_Maiden {
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    margin-left: 10px;
+
+    transition: all 250ms;
+}
+
+.Crystal_Maiden:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+ }
+
+.Crystal_Maiden:hover .hero_image {
+    opacity: 0.3;
+ }
+  
+.Crystal_Maiden:hover .middle {
+    opacity: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+}
+
+.Dark_Seer {
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    margin-left: 10px;
+
+    transition: all 250ms;
+}
+
+.Dark_Seer:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+ }
+
+.Dark_Seer:hover .hero_image {
+    opacity: 0.3;
+ }
+  
+.Dark_Seer:hover .middle {
+    opacity: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+}
+
+.Dark_Willow {
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    margin-left: 10px;
+
+    transition: all 250ms;
+}
+
+.Dark_Willow:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+ }
+
+.Dark_Willow:hover .hero_image {
+    opacity: 0.3;
+ }
+  
+.Dark_Willow:hover .middle {
+    opacity: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+}
+
+.Dazzle {
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    margin-left: 10px;
+
+    transition: all 250ms;
+}
+
+.Dazzle:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+ }
+
+.Dazzle:hover .hero_image {
+    opacity: 0.3;
+ }
+  
+.Dazzle:hover .middle {
+    opacity: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+}
+
+.Death_Prophet {
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    margin-left: 10px;
+
+    transition: all 250ms;
+}
+
+.Death_Prophet:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+ }
+
+.Death_Prophet:hover .hero_image {
+    opacity: 0.3;
+ }
+  
+.Death_Prophet:hover .middle {
+    opacity: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+}
+
+.Disruptor {
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    margin-left: 10px;
+
+    transition: all 250ms;
+}
+
+.Disruptor:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+ }
+
+.Disruptor:hover .hero_image {
+    opacity: 0.3;
+ }
+  
+.Disruptor:hover .middle {
+    opacity: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+}
+
+.Enchantress {
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    margin-left: 10px;
+
+    transition: all 250ms;
+}
+
+.Enchantress:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+ }
+
+.Enchantress:hover .hero_image {
+    opacity: 0.3;
+ }
+  
+.Enchantress:hover .middle {
+    opacity: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+}
+
+.Enigma {
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    margin-left: 10px;
+
+    transition: all 250ms;
+}
+
+.Enigma:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+ }
+
+.Enigma:hover .hero_image {
+    opacity: 0.3;
+ }
+  
+.Enigma:hover .middle {
+    opacity: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+}
+
+.Grimstroke {
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    margin-left: 10px;
+
+    transition: all 250ms;
+}
+
+.Grimstroke:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+ }
+
+.Grimstroke:hover .hero_image {
+    opacity: 0.3;
+ }
+  
+.Grimstroke:hover .middle {
+    opacity: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+}
+
+.Invoker {
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    margin-left: 10px;
+
+    transition: all 250ms;
+}
+
+.Invoker:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+ }
+
+.Invoker:hover .hero_image {
+    opacity: 0.3;
+ }
+  
+.Invoker:hover .middle {
+    opacity: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+}
+
+.Jakiro {
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    margin-left: 10px;
+
+    transition: all 250ms;
+}
+
+.Jakiro:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+ }
+
+.Jakiro:hover .hero_image {
+    opacity: 0.3;
+ }
+  
+.Jakiro:hover .middle {
+    opacity: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+}
+
+.Keeper_of_the_Light {
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    margin-left: 10px;
+
+    transition: all 250ms;
+}
+
+.Keeper_of_the_Light:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+ }
+
+.Keeper_of_the_Light:hover .hero_image {
+    opacity: 0.3;
+ }
+  
+.Keeper_of_the_Light:hover .middle {
+    opacity: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+}
+
+.Leshrac {
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    margin-left: 10px;
+
+    transition: all 250ms;
+}
+
+.Leshrac:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+ }
+
+.Leshrac:hover .hero_image {
+    opacity: 0.3;
+ }
+  
+.Leshrac:hover .middle {
+    opacity: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+}
+
+.Lich {
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    margin-left: 10px;
+
+    transition: all 250ms;
+}
+
+.Lich:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+ }
+
+.Lich:hover .hero_image {
+    opacity: 0.3;
+ }
+  
+.Lich:hover .middle {
+    opacity: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+}
+
+.Lina {
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    margin-left: 10px;
+
+    transition: all 250ms;
+}
+
+.Lina:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+ }
+
+.Lina:hover .hero_image {
+    opacity: 0.3;
+ }
+  
+.Lina:hover .middle {
+    opacity: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+}
+
+.Lion {
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    margin-left: 10px;
+
+    transition: all 250ms;
+}
+
+.Lion:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+ }
+
+.Lion:hover .hero_image {
+    opacity: 0.3;
+ }
+  
+.Lion:hover .middle {
+    opacity: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+}
+
+.Natures_Prophet {
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    margin-left: 10px;
+
+    transition: all 250ms;
+}
+
+.Natures_Prophet:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+ }
+
+.Natures_Prophet:hover .hero_image {
+    opacity: 0.3;
+ }
+  
+.Natures_Prophet:hover .middle {
+    opacity: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+}
+
+.Necrophos {
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    margin-left: 10px;
+
+    transition: all 250ms;
+}
+
+.Necrophos:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+ }
+
+.Necrophos:hover .hero_image {
+    opacity: 0.3;
+ }
+  
+.Necrophos:hover .middle {
+    opacity: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+}
+
+.Oracle {
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    margin-left: 10px;
+
+    transition: all 250ms;
+}
+
+.Oracle:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+ }
+
+.Oracle:hover .hero_image {
+    opacity: 0.3;
+ }
+  
+.Oracle:hover .middle {
+    opacity: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+}
+
+.Outworld_Devourer {
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    margin-left: 10px;
+
+    transition: all 250ms;
+}
+
+.Outworld_Devourer:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+ }
+
+.Outworld_Devourer:hover .hero_image {
+    opacity: 0.3;
+ }
+  
+.Outworld_Devourer:hover .middle {
+    opacity: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+}
+
+.Puck {
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    margin-left: 10px;
+
+    transition: all 250ms;
+}
+
+.Puck:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+ }
+
+.Puck:hover .hero_image {
+    opacity: 0.3;
+ }
+  
+.Puck:hover .middle {
+    opacity: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+}
+
+.Pugna {
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    margin-left: 10px;
+
+    transition: all 250ms;
+}
+
+.Pugna:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+ }
+
+.Pugna:hover .hero_image {
+    opacity: 0.3;
+ }
+  
+.Pugna:hover .middle {
+    opacity: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+}
+
+.Queen_of_Pain {
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    margin-left: 10px;
+
+    transition: all 250ms;
+}
+
+.Queen_of_Pain:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+ }
+
+.Queen_of_Pain:hover .hero_image {
+    opacity: 0.3;
+ }
+  
+.Queen_of_Pain:hover .middle {
+    opacity: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+}
+
+.Rubick {
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    margin-left: 10px;
+
+    transition: all 250ms;
+}
+
+.Rubick:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+ }
+
+.Rubick:hover .hero_image {
+    opacity: 0.3;
+ }
+  
+.Rubick:hover .middle {
+    opacity: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+}
+
+.Shadow_Demon {
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    margin-left: 10px;
+
+    transition: all 250ms;
+}
+
+.Shadow_Demon:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+ }
+
+.Shadow_Demon:hover .hero_image {
+    opacity: 0.3;
+ }
+  
+.Shadow_Demon:hover .middle {
+    opacity: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+}
+
+.Shadow_Shaman {
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    margin-left: 10px;
+
+    transition: all 250ms;
+}
+
+.Shadow_Shaman:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+ }
+
+.Shadow_Shaman:hover .hero_image {
+    opacity: 0.3;
+ }
+  
+.Shadow_Shaman:hover .middle {
+    opacity: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+}
+
+.Silencer {
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    margin-left: 10px;
+
+    transition: all 250ms;
+}
+
+.Silencer:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+ }
+
+.Silencer:hover .hero_image {
+    opacity: 0.3;
+ }
+  
+.Silencer:hover .middle {
+    opacity: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+}
+
+.Skywrath_Mage {
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    margin-left: 10px;
+
+    transition: all 250ms;
+}
+
+.Skywrath_Mage:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+ }
+
+.Skywrath_Mage:hover .hero_image {
+    opacity: 0.3;
+ }
+  
+.Skywrath_Mage:hover .middle {
+    opacity: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+}
+
+.Storm_Spirit {
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    margin-left: 10px;
+
+    transition: all 250ms;
+}
+
+.Storm_Spirit:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+ }
+
+.Storm_Spirit:hover .hero_image {
+    opacity: 0.3;
+ }
+  
+.Storm_Spirit:hover .middle {
+    opacity: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+}
+
+.Techies {
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    margin-left: 10px;
+
+    transition: all 250ms;
+}
+
+.Techies:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+ }
+
+.Techies:hover .hero_image {
+    opacity: 0.3;
+ }
+  
+.Techies:hover .middle {
+    opacity: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+}
+
+.Tinker {
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    margin-left: 10px;
+
+    transition: all 250ms;
+}
+
+.Tinker:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+ }
+
+.Tinker:hover .hero_image {
+    opacity: 0.3;
+ }
+  
+.Tinker:hover .middle {
+    opacity: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+}
+
+.Visage {
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    margin-left: 10px;
+
+    transition: all 250ms;
+}
+
+.Visage:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+ }
+
+.Visage:hover .hero_image {
+    opacity: 0.3;
+ }
+  
+.Visage:hover .middle {
+    opacity: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+}
+
+.Void_Spiritr {
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    margin-left: 10px;
+
+    transition: all 250ms;
+}
+
+.Void_Spiritr:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+ }
+
+.Void_Spiritr:hover .hero_image {
+    opacity: 0.3;
+ }
+  
+.Void_Spiritr:hover .middle {
+    opacity: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+}
+
+.Warlock {
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    margin-left: 10px;
+
+    transition: all 250ms;
+}
+
+.Warlock:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+ }
+
+.Warlock:hover .hero_image {
+    opacity: 0.3;
+ }
+  
+.Warlock:hover .middle {
+    opacity: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+}
+
+.Windranger {
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    margin-left: 10px;
+
+    transition: all 250ms;
+}
+
+.Windranger:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+ }
+
+.Windranger:hover .hero_image {
+    opacity: 0.3;
+ }
+  
+.Windranger:hover .middle {
+    opacity: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+}
+
+.Winter_Wyvern {
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    margin-left: 10px;
+
+    transition: all 250ms;
+}
+
+.Winter_Wyvern:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+ }
+
+.Winter_Wyvern:hover .hero_image {
+    opacity: 0.3;
+ }
+  
+.Winter_Wyvern:hover .middle {
+    opacity: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+}
+
+.Witch_Doctor {
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    margin-left: 10px;
+
+    transition: all 250ms;
+}
+
+.Witch_Doctor:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+ }
+
+.Witch_Doctor:hover .hero_image {
+    opacity: 0.3;
+ }
+  
+.Witch_Doctor:hover .middle {
+    opacity: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+}
+
+.Zeus{
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    margin-left: 10px;
+
+    transition: all 250ms;
+}
+
+.Zeus:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+ }
+
+.Zeus:hover .hero_image {
+    opacity: 0.3;
+ }
+  
+.Zeus:hover .middle {
+    opacity: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+}
+
+.Ogre_Magi{
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    margin-left: 10px;
+
+    transition: all 250ms;
+}
+
+.Ogre_Magi:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+ }
+
+.Ogre_Magi:hover .hero_image {
+    opacity: 0.3;
+ }
+  
+.Ogre_Magi:hover .middle {
+    opacity: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 0 0 0 rgba(0, 0, 0, 0.09); 
+}
